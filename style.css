@@ -17,18 +17,18 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    background-color: #092952;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #424a50;
+    background-color: #4B6982;
     border-radius: 0px 60px 0px 0px;
 }
 
 .left-section-contents{
-    padding: 2rem 2rem;
+    padding: rem rem;
 }
 
 .profile {
@@ -46,23 +46,27 @@
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .profession {
-    color: #eeeeee;
+    color: #FDB44B;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    padding-top: 1.0rem;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #eeeeee;
+    color: #FDB44B;
     font-size: 20px;
+    padding: 1.0rem;
 }
 
 .contact-info ul {
     padding-top: 1.5rem;
+    
 }
 
 .contact-info ul li,
@@ -80,26 +84,27 @@
 
 .skills ul {
     padding-top: 1.5rem;
+    padding: 1rem;
 }
 .skills ul li p {
     padding: .4rem 0;
     color: #eeeeee;
 }
 
-.right-section-contents {
-    padding: 2rem 2rem;
-}
-
 .right-title {
-    color: #eeeeee;
+    color:aquamarine;
+    font-size: 35px;
+    padding-top: 2rem;
 }
 
 .gap {
     padding-bottom: 2rem;
+    padding-left: 2rem;
 }
 .about-me-contents {
     font-size: 18px;
     color: #eeeeee;
+    padding-top: 0.5rem;
 }
 
 .experience-contents,
@@ -107,32 +112,55 @@
 .awards-contents {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 2rem;
     color: #F1F8FD;
 }
 
-.exp-company-name,
-.education-school-name,
+.exp-company-name {
+    font-size: 25px;
+    color:#FDB44B;
+    padding-top: 2rem;
+    
+}
+.education-school-name {
+    font-size: 25px;
+    color:#FDB44B;
+    padding-top: 2rem;
+    
+}
 .awards-company-name {
     font-size: 25px;
-    font-weight: bold;
-}
+    color:#FDB44B;
+    padding-top: 2rem;
+    
+} 
 
 .exp-time-period,
-.educationp-time-period,
+.education-time-period,
 .awards-time-period {
-    font-size: 18px;
+    font-size: 16px;
+    padding-top: 2rem;
 }
 
 .exp-position,
 .education-subject,
 .awards-name {
     font-size: 25px;
+    padding-top: 2rem;
+   
 }
 
 .exp-desc,
 .education-desc,
 .awards-desc {
+
     font-size: 16px;
     padding-left: 5px;
+    padding-top: 2rem;
+
+}
+.education-subject, .exp-position {
+    color:#FDB44B;
+} 
+.exp-company-namee, .awards-company-name2 {
+    padding-top: 2rem;
 }
